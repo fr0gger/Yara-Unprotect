@@ -30,7 +30,7 @@ rule DLL_inject
         $var7 = "GetProcAddress"
         $var8 = "CreateRemoteThread"
     condition:
-        all of them
+        4 of them
 }
 
 rule Inject_Thread 
